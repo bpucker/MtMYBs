@@ -3,7 +3,7 @@
 ### v0.1 ###
 
 __usage__ = """
-					python coexp_ath.py
+					python coexp_medicago.py
 					--in <FULL_PATH_TO_CANDIDATE_FILE(one ID per line)>
 					--exp <FULL_PATH_TO_EXPRESSION_TABLE>
 					--out <FULL_PATH_TO_OUTPUT_DIRECTORY>
