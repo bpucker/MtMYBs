@@ -161,7 +161,7 @@ def main( arguments ):
 																] ) ) + '\n' )
 
 
-if '--exp' in sys.argv and '--ann' in sys.argv and '--out' in sys.argv and '--in' in sys.argv:
+if '--exp' in sys.argv and '--out' in sys.argv and '--in' in sys.argv:
 	main( sys.argv )
 else:
 	sys.exit( __usage__ )
