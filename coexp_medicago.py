@@ -141,7 +141,7 @@ def main( arguments ):
 					try:
 						ann = annotation_mapping_table[ entry['id'] ]
 					except KeyError:
-						"N/A"
+						ann = "N/A"
 				
 				try:
 					gene1 = gene_name_mapping_table[ candidate ]
